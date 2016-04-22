@@ -1,0 +1,40 @@
+﻿
+In your own words. I want to know how deep your knowledge is about the two components in Python
+1
+What is the difference between list and dictionary?
+2
+Which do you prefer and why?
+3
+What area does list solve that dictionary doesn't and vice versa
+4
+How many elements are in m if m = [[x, y] for x in range(0, 4) for y in range(0, 4)]
+5
+How do you get all keys in a dictionary?
+6
+How do you get all values in a dictionary?
+7
+How do you remove last object from a list?
+8
+How do you compare 2 lists?
+9
+How do you remove duplicate values in a list?
+10
+What is Dict and List comprehensions are?
+
+
+1. Dictionary are like lists that have no order and have keys instead of indices.
+2. Dictionary because they are more flexible than lists.
+3. Dictionary can be used if you need a specific key to get the value for example assigning a number to a name in a contact list while lists are good for elements that needs to be in a specific order or doesn't need to be assigned to a specific value.
+4. 16
+5.for key in dictionary:
+	return key
+6.for key in dictionary:
+	return dictionary[key]
+7.list=list[:-1]
+8. print (True if list_a==list+b else True)
+9. 	output=[]
+	for element in list:
+    	  output.append(element) if not(element in output) else 1
+           print output
+10. Dictionary and list comprehensions are constructors that you can use if you need a list or dictionary and you have a simple algorithm that you can follow to determine the elements that you need.
+
